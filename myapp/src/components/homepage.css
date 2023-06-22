@@ -1,0 +1,61 @@
+.navbar {
+    background-color:aqua;
+    padding: 10px;
+    margin-left: 550px;
+    margin-top: 100px;
+    background-color: #ffffff;
+
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color:blue;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card__image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card__desc {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Pagination Styles */
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination__button {
+    background-color:aqua;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-right: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 550px;
+    margin-top: 100px;
+
+  }
+  
+  .pagination__button:hover {
+    background-color:aqua;
+  }
+  
+  .pagination__button--active {
+    background-color:aqua;
+    color: #fff;
+  }
