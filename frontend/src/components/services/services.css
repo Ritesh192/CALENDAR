@@ -1,0 +1,102 @@
+.section-white {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-12 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.col-sm-6,
+.col-md-4 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.team-item {
+  text-align: center;
+}
+
+.team-img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+h3 {
+  font-size: 20px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.team-info {
+  margin-top: 10px;
+}
+
+.team-info p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.team.icon {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.team.icon li {
+  margin-right: 10px;
+}
+
+.team.icon a {
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.team.icon a:hover {
+  color: #4285f4;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .col-sm-6,
+  .col-md-4 {
+    width: 100%;
+  }
+}
